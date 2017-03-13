@@ -20,16 +20,12 @@ section {
 	border-radius: 2em;
 	background-color: darkgray;
 	padding-left: 0;
-	-webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
 	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
 }
 
 input, button {
 	margin: 0.1em;
 	background-color: lightgray;
-	-webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
 	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
 	border: 2px solid lightgray;
 }
@@ -44,8 +40,6 @@ input[type='date']{
 
 button {
 	padding-bottom: 0.2em;
-	-webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
 	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
 	margin-bottom: 0.5em;
 	text-align: center;
@@ -68,8 +62,6 @@ span {
 	color: maroon;
 	border: 1px solid lightgray;
 	background-color: lightgray;
-	-webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
 	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
 }
 
