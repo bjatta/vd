@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/vacation_dates.css">
+		<title>Расчёт компенсации трудового отпуска</title>
+</head>
+<body>
+	<section>
+	<h1>Расчёт компенсации трудового отпуска</h1>
+	<form action="#" onsubmit="return false;">
+		<input type="date" name="date1" value="2015-07-02" onchange="calc()">
+		<input type="date" name="date2" value="2016-05-23" onchange="calc()"><br>
+		<input type="number" min="24" max="58" name="days1" value="28" onchange="calc()">
+		<input type="number" min="0" max="370" name="days2" value="0" onchange="calc()"><br>
+		<button onclick="calc()">&nbsp;расчёт&nbsp;</button>
+	</form>
+	<div></div>
+	</section>
+	<script>
+		function checkDate(htmlNodeWithDate,initialValue){
+			if (date1 = Date.parse(htmlNodeWithDate.value)) return date1;
+				else {
+					htmlNodeWithDate.value = initialValue;
+					return Date.parse(initialValue);
+				}
+		}
+		function calc(){
+			var daysDone = (checkDate(document.querySelector('input[name="date2"]'),"2016-05-23")
+						   -checkDate(document.querySelector('input[name="date1"]'),"2015-07-02"))
+						   /(60*60*24*1000);
+			var monthesDone = Math.round(daysDone / 29.7);
+
+			document.querySelector('section div').innerHTML = '<p>' + daysDone + ' дн. '
+				+ monthesDone + ' мес.</p>'
+				+ 'Количество дней трудового отпуска: <span>' 
+				+ (Math.round(document.querySelector('input[name="days1"]').value/12*monthesDone) - parseInt(document.querySelector('input[name="days2"]').value) +'&nbsp;</span>');
+		}
+		calc();
+	</script>
+</body>
+</html>
