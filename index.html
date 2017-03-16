@@ -8,7 +8,7 @@
 		<title>Расчёт компенсации трудового отпуска</title>
 </head>
 <body>
-	<section>
+	<section onkeypress="toggleFullScreen()" onclick="toggleFullScreen()">
 	<h1>Расчёт компенсации трудового отпуска</h1>
 	<form action="#" onsubmit="return false;">
 		<input type="date" name="date1" value="2015-07-02" onchange="calc()">
@@ -32,11 +32,37 @@
 						   -checkDate(document.querySelector('input[name="date1"]'),"2015-07-02"))
 						   /(60*60*24*1000);
 			var monthesDone = Math.round(daysDone / 29.7);
-
 			document.querySelector('section div').innerHTML = '<p>' + daysDone + ' дн. '
 				+ monthesDone + ' мес.</p>'
 				+ 'Количество дней трудового отпуска: <span>' 
 				+ (Math.round(document.querySelector('input[name="days1"]').value/12*monthesDone) - parseInt(document.querySelector('input[name="days2"]').value) +'&nbsp;</span>');
+		}
+
+		function toggleFullScreen() {
+		  if (!document.fullscreenElement &&
+		      !document.mozFullScreenElement &&
+		      !document.webkitFullscreenElement &&
+		      !document.msFullscreenElement ) {
+		    if (document.documentElement.requestFullscreen) {
+		      document.documentElement.requestFullscreen();
+		    } else if (document.documentElement.msRequestFullscreen) {
+		      document.documentElement.msRequestFullscreen();
+		    } else if (document.documentElement.mozRequestFullScreen) {
+		      document.documentElement.mozRequestFullScreen();
+		    } else if (document.documentElement.webkitRequestFullscreen) {
+		      document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+		    }
+		  } else {
+		    if (document.exitFullscreen) {
+		      document.exitFullscreen();
+		    } else if (document.msExitFullscreen) {
+		      document.msExitFullscreen();
+		    } else if (document.mozCancelFullScreen) {
+		      document.mozCancelFullScreen();
+		    } else if (document.webkitExitFullscreen) {
+		      document.webkitExitFullscreen();
+		    }
+		  }
 		}
 		calc();
 	</script>
