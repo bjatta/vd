@@ -1,68 +1,59 @@
-;(() => {
-    'use strict';
-    let __ = console.log;
+'use strict';
 
-    let today = (now=true)=> {
-        let today = new Date();
-        let dd = today.getDate();
-        let mm = today.getMonth() + 1; //January is 0!
-        let yyyy = today.getFullYear();
+;(function () {
+    var __ = console.log;
 
-        if(dd<10) {
-            dd = '0'+dd
+    var today = function today() {
+        var now = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
+
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth() + 1; //January is 0!
+        var yyyy = today.getFullYear();
+
+        if (dd < 10) {
+            dd = '0' + dd;
         }
 
-        if(mm<10) {
-            mm = '0'+mm
+        if (mm < 10) {
+            mm = '0' + mm;
         }
 
-        if (!now){
+        if (!now) {
             --yyyy;
         }
 
-        return yyyy+'-'+mm+'-'+dd;
+        return yyyy + '-' + mm + '-' + dd;
     };
 
-    let d = document.querySelector('#vd-main-section');
+    var d = document.querySelector('#vd-main-section');
 
-    let setListeners = () => {
-        d.querySelector('input[name="ends_at"]').value=today();
-        d.querySelector('input[name="starts_at"]').value=today(false);
+    var setListeners = function setListeners() {
+        d.querySelector('input[name="ends_at"]').value = today();
+        d.querySelector('input[name="starts_at"]').value = today(false);
         calc();
-        [
-            'input[name="ends_at"]',
-            'input[name="starts_at"]',
-            'input[name="days"]',
-            'input[name="contract_days"]'
-        ].forEach(cssSelector=>{
+        ['input[name="ends_at"]', 'input[name="starts_at"]', 'input[name="days"]', 'input[name="contract_days"]'].forEach(function (cssSelector) {
             "use strict";
-            d.querySelector(cssSelector).addEventListener('change',calc);
+
+            d.querySelector(cssSelector).addEventListener('change', calc);
         });
     };
 
-    let checkDate = (htmlNodeWithDate, initialValue) => {
-        let date1;
-        if (date1 = Date.parse(htmlNodeWithDate.value)) return date1;
-        else {
+    var checkDate = function checkDate(htmlNodeWithDate, initialValue) {
+        var date1 = void 0;
+        if (date1 = Date.parse(htmlNodeWithDate.value)) return date1;else {
             htmlNodeWithDate.value = initialValue;
             return Date.parse(initialValue);
         }
     };
 
-    let calc = () => {
-        let daysDone;
-        daysDone = (checkDate(d.querySelector('input[name="ends_at"]'), today())
-            - checkDate(d.querySelector('input[name="starts_at"]'), "2015-07-02"))
-            / (60 * 60 * 24 * 1000);
-        let monthesDone;
+    var calc = function calc() {
+        var daysDone = void 0;
+        daysDone = (checkDate(d.querySelector('input[name="ends_at"]'), today()) - checkDate(d.querySelector('input[name="starts_at"]'), "2015-07-02")) / (60 * 60 * 24 * 1000);
+        var monthesDone = void 0;
         monthesDone = Math.round(daysDone / 29.7);
-        d.querySelector('div').innerHTML = '<p>' + daysDone + ' дн. '
-            + monthesDone + ' мес.</p>'
-            + 'Количество дней трудового отпуска: <span>'
-            + (Math.round(d.querySelector('input[name="days"]').value / 12 * monthesDone)
-                - parseInt(d.querySelector('input[name="contract_days"]').value) + '&nbsp;</span>');
+        d.querySelector('div').innerHTML = '<p>' + daysDone + ' дн. ' + monthesDone + ' мес.</p>' + 'Количество дней трудового отпуска: <span>' + (Math.round(d.querySelector('input[name="days"]').value / 12 * monthesDone) - parseInt(d.querySelector('input[name="contract_days"]').value) + '&nbsp;</span>');
     };
 
     document.addEventListener("DOMContentLoaded", setListeners);
-
 })();
