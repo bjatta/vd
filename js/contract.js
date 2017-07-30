@@ -25,13 +25,13 @@
     };
 
     let calc = (ev) => {
-        let toPay;
-        let fee;
-        let fszn;
-        let total;
-        let tariff;
-        let honor;
-        let diff;
+        var toPay;
+        var fee;
+        var fszn;
+        var total;
+        var tariff;
+        var honor;
+        var diff;
 
         if (ev) {
             if (ev.target.name == 'tariff') {
@@ -48,8 +48,6 @@
             fee = (total * .13).toFixed(2) * 1;
             fszn = (total * .01).toFixed(2) * 1;
             toPay = (total - fee - fszn).toFixed(2);
-            diff = (toPay - total - fszn - fee).toFixed(2);
-
             d.querySelector('input[name="toPay"]').value = toPay;
         } else {
             toPay = (getValue(d.querySelector('input[name="toPay"]'))) * 1;
@@ -58,9 +56,9 @@
             total = toPay + fee + fszn;
             tariff = (total / ( 1 + [0, .5, .3][getValue(d.querySelector('select[name="select-honor"]'))])).toFixed(2);
             honor = (total - tariff).toFixed(2) * 1;
-            diff = (toPay - total - fszn - fee).toFixed(2);
             d.querySelector('input[name="tariff"]').value = tariff;
         }
+        diff = (toPay - total - fszn - fee).toFixed(2);
         d.querySelector('#total').innerHTML = '<span><strong>' + total + ' </strong></span>&nbspруб. ';
         d.querySelector('#honor').innerHTML = 'премия: <span>' + honor + ' </span>&nbspруб. ';
         d.querySelector('#income-fee').innerHTML = 'подоходный: ' + fee + ' &nbspруб. ';
