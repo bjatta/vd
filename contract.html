@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/vacation_dates.css">
+        <title>Расчёт договоров подряда</title>
+    </head>
+    <body id="vd-main-section">
+    <section>
+        <h1>Расчёт договоров подряда:</h1>
+        <form action="#" onsubmit="return false;">
+            <input type="number" min="1" max="9999" name="netto" value="750.00" title="Оплата грязными...">
+            <div id="income-fee">подоходный 13%</div>
+            <div id="FSZN"> ФСЗН 1%</div>
+            <div id="total"> На руки </div>
+            <div id="error"></div>
+        </form>
+        <div></div>
+    </section>
+    <p></p>
+    <section>
+        <h1>Расчёт АКТА к договору подряда:</h1>
+        <form action="#" onsubmit="return false;">
+            <input type="number" min="1" max="9999" name="netto1" value="123.12" title="Оплата грязными...">
+            <br>
+            <input type="number" min="1" max="9999" name="pre_payd1" value="0">
+            <input type="number" min="1" max="9999" name="pre_payd2" value="0">
+            <input type="number" min="1" max="9999" name="pre_payd3" value="0">
+            <input type="number" min="1" max="9999" name="pre_payd4" value="0">
+            <div id="total2"> Выплата </div>
+        </form>
+        <div></div>
+    </section>
+    <div><a href="index.html"><span> Расчёт отпуска </span></a></div>
+    <script type="text/javascript" src="js/act.js"></script>
+    </body>
+</html>

@@ -90,3 +90,10 @@ p {
 	form, div {padding: 0em; margin: 0.3em;}
 	div {font-size: 1em;}
 }
+
+div a {
+	text-decoration: none;
+}
+div a span{
+	padding: 0.25em 0.4em;
+}
