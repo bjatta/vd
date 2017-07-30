@@ -1,37 +1,37 @@
-;(() => {
-    let __ = console.log;
-    let direction = 'down';
-    let d = document.querySelector('#vd-main-section');
+'use strict';
 
-    let setListeners = () => {
+;(function () {
+    var __ = console.log;
+    var direction = 'down';
+    var d = document.querySelector('#vd-main-section');
+
+    var setListeners = function setListeners() {
         calc();
-        [
-            'input[name="tariff"]',
-            'select[name="select-honor"]',
-            'input[name="toPay"]',
-        ].forEach(cssSelector => {
+        ['input[name="tariff"]', 'select[name="select-honor"]', 'input[name="toPay"]'].forEach(function (cssSelector) {
             "use strict";
+
             d.querySelector(cssSelector).addEventListener('change', calc);
         });
     };
 
-    let getValue = (htmlNodeWithDate, initialValue = '0') => {
-        let amount;
-        if (amount = parseFloat(htmlNodeWithDate.value)) return amount;
-        else {
+    var getValue = function getValue(htmlNodeWithDate) {
+        var initialValue = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '0';
+
+        var amount = void 0;
+        if (amount = parseFloat(htmlNodeWithDate.value)) return amount;else {
             htmlNodeWithDate.value = initialValue;
             return parseFloat(initialValue);
         }
     };
 
-    let calc = (ev) => {
-        var toPay;
-        var fee;
-        var fszn;
-        var total;
-        var tariff;
-        var honor;
-        var diff;
+    var calc = function calc(ev) {
+        var toPay = void 0;
+        var fee = void 0;
+        var fszn = void 0;
+        var total = void 0;
+        var tariff = void 0;
+        var honor = void 0;
+        var diff = void 0;
 
         if (ev) {
             if (ev.target.name == 'tariff') {
@@ -42,7 +42,7 @@
             }
         }
         if (direction == 'down') {
-            tariff = (getValue(d.querySelector('input[name="tariff"]'))) * 1;
+            tariff = getValue(d.querySelector('input[name="tariff"]')) * 1;
             honor = tariff * [0, .5, .3][getValue(d.querySelector('select[name="select-honor"]'))];
             total = tariff + honor;
             fee = (total * .13).toFixed(2) * 1;
@@ -50,11 +50,11 @@
             toPay = (total - fee - fszn).toFixed(2);
             d.querySelector('input[name="toPay"]').value = toPay;
         } else {
-            toPay = (getValue(d.querySelector('input[name="toPay"]'))) * 1;
+            toPay = getValue(d.querySelector('input[name="toPay"]')) * 1;
             fee = (toPay * .13).toFixed(2) * 1;
             fszn = (toPay * .01).toFixed(2) * 1;
             total = toPay + fee + fszn;
-            tariff = (total / ( 1 + [0, .5, .3][getValue(d.querySelector('select[name="select-honor"]'))])).toFixed(2);
+            tariff = (total / (1 + [0, .5, .3][getValue(d.querySelector('select[name="select-honor"]'))])).toFixed(2);
             honor = (total - tariff).toFixed(2) * 1;
             d.querySelector('input[name="tariff"]').value = tariff;
         }
