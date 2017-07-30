@@ -23,7 +23,7 @@ section {
 	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
 }
 
-input, button {
+input, button, select {
 	margin: 0.1em;
 	background-color: lightgray;
 	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
@@ -93,7 +93,11 @@ p {
 
 div a {
 	text-decoration: none;
+	margin: 1em 0.25em;
 }
 div a span{
 	padding: 0.25em 0.4em;
+}
+.inline{
+	display: inline;
 }

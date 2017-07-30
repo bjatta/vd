@@ -9,31 +9,24 @@
     </head>
     <body id="vd-main-section">
     <section>
-        <h1>Расчёт договоров подряда:</h1>
+        <h1>Оплата контракта:</h1>
         <form action="#" onsubmit="return false;">
-            <input type="number" min="1" max="9999" name="netto" value="750.00" title="Оплата грязными...">
-            <div id="income-fee">подоходный 13%</div>
+            <label>тарифный оклад:</label><input type="number" min="1" max="9999" name="tariff" value="750.00" title="Тарифный оклад"><br>
+            <div id="honor" class="inline">honor</div>
+            <select type="select" title="% премии" name="select-honor">
+                <option value="1">50%</option>
+                <option value="2">30%</option>
+            </select>
+            <div id="total">общая</div>
+            <div id="income-fee">подоходный налог 13%</div>
             <div id="FSZN"> ФСЗН 1%</div>
-            <div id="total"> На руки </div>
+            <div id="totalfee"> всего удержаний </div>
+            <label>на руки:</label><input type="number" min="1" max="9999" name="toPay" value="750.00" title="Грязными"><br>
             <div id="error"></div>
         </form>
         <div></div>
     </section>
-    <p></p>
-    <section>
-        <h1>Расчёт АКТА к договору подряда:</h1>
-        <form action="#" onsubmit="return false;">
-            <input type="number" min="1" max="9999" name="netto1" value="123.12" title="Оплата грязными...">
-            <br>
-            <input type="number" min="1" max="9999" name="pre_payd1" value="0">
-            <input type="number" min="1" max="9999" name="pre_payd2" value="0">
-            <input type="number" min="1" max="9999" name="pre_payd3" value="0">
-            <input type="number" min="1" max="9999" name="pre_payd4" value="0">
-            <div id="total2"> Выплата </div>
-        </form>
-        <div></div>
-    </section>
-    <div><a href="index.html"><span> РО </span></a></div>
+    <div><a href="index.html"><span> РО </span></a><a href="act.html"><span> ДП </span></a></div>
     <script type="text/javascript" src="js/contract.js"></script>
     </body>
 </html>
