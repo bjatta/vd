@@ -1,4 +1,5 @@
 ;(() => {
+    'use strict';
     let __ = console.log;
 
     let today = (now=true)=> {
