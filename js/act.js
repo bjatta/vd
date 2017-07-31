@@ -44,8 +44,8 @@
         var avans2 = getValue(d.querySelector('input[name="pre_payd2"]'));
         var avans3 = getValue(d.querySelector('input[name="pre_payd3"]'));
         var avans4 = getValue(d.querySelector('input[name="pre_payd4"]'));
-        var toPay2 = total2 - avans1 - avans2 - avans3 - avans4;
-        d.querySelector('#total2').innerHTML = '<p> ИТОГО: <span>' + toPay2.toFixed(2) + ' </span>&nbspруб. </p>';
+        var toPay2 = (total2 - avans1 - avans2 - avans3 - avans4).toFixed(2);
+        d.querySelector('#total2').innerHTML = '<p> ИТОГО: <span>' + toPay2 + ' </span>&nbspруб. </p>';
     };
 
     document.addEventListener("DOMContentLoaded", setListeners);
