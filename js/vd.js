@@ -35,7 +35,7 @@
         ['input[name="ends_at"]', 'input[name="starts_at"]', 'input[name="days"]', 'input[name="contract_days"]'].forEach(function (cssSelector) {
             d.querySelector(cssSelector).addEventListener('change', calc);
             d.querySelector(cssSelector).addEventListener('click', calc);
-            d.querySelector(cssSelector).addEventListener('keypress', calc);
+            d.querySelector(cssSelector).addEventListener('keyup', calc);
         });
     };
 

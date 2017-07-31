@@ -10,7 +10,7 @@
         ['input[name="tariff"]', 'select[name="select-honor"]', 'input[name="toPay"]'].forEach(function (cssSelector) {
             d.querySelector(cssSelector).addEventListener('change', calc);
             d.querySelector(cssSelector).addEventListener('click', calc);
-            d.querySelector(cssSelector).addEventListener('keypress', calc);
+            d.querySelector(cssSelector).addEventListener('keyup', calc);
         });
     };
 
