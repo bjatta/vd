@@ -8,9 +8,9 @@
     var setListeners = function setListeners() {
         calc();
         ['input[name="netto"]', 'input[name="netto1"]', 'input[name="pre_payd1"]', 'input[name="pre_payd2"]', 'input[name="pre_payd3"]', 'input[name="pre_payd4"]'].forEach(function (cssSelector) {
-            "use strict";
-
             d.querySelector(cssSelector).addEventListener('change', calc);
+            d.querySelector(cssSelector).addEventListener('click', calc);
+            d.querySelector(cssSelector).addEventListener('keypress', calc);
         });
     };
 

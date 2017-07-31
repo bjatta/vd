@@ -8,9 +8,9 @@
     var setListeners = function setListeners() {
         calc();
         ['input[name="tariff"]', 'select[name="select-honor"]', 'input[name="toPay"]'].forEach(function (cssSelector) {
-            "use strict";
-
             d.querySelector(cssSelector).addEventListener('change', calc);
+            d.querySelector(cssSelector).addEventListener('click', calc);
+            d.querySelector(cssSelector).addEventListener('keypress', calc);
         });
     };
 
@@ -51,9 +51,9 @@
             d.querySelector('input[name="toPay"]').value = toPay;
         } else {
             toPay = getValue(d.querySelector('input[name="toPay"]')) * 1;
-            fee = (toPay * .13).toFixed(2) * 1;
-            fszn = (toPay * .01).toFixed(2) * 1;
-            total = (toPay + fee + fszn).toFixed(2);
+            total = (toPay /.86).toFixed(2);
+            fee = (total * .13).toFixed(2) * 1;
+            fszn = (total * .01).toFixed(2) * 1;
             tariff = (total / (1 + [0, .5, .3][getValue(d.querySelector('select[name="select-honor"]'))])).toFixed(2);
             honor = (total - tariff).toFixed(2) * 1;
             d.querySelector('input[name="tariff"]').value = tariff;
