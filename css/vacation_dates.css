@@ -21,6 +21,7 @@ section {
 	background-color: darkgray;
 	padding-left: 0;
 	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+	margin-bottom: .5em;
 }
 
 input, button, select {
