@@ -1,108 +1,133 @@
 * {
-	box-sizing: border-box;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1.1em;
-	text-align: center;
-	border-radius: 0.5em;
-	padding-left: 0.2em;
-	margin-left: auto;
-	margin-right: auto;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    border-radius: 0.5em;
+    padding-left: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
-	padding: 0;
-	margin-right: 0.4em;
-	min-width: 271px;
+    padding: 0;
+    margin-right: 0.4em;
+    min-width: 271px;
 }
 
 section {
-	border: 2px solid black;
-	border-radius: 2em;
-	background-color: darkgray;
-	padding-left: 0;
-	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
-	margin-bottom: .5em;
+    border: 2px solid black;
+    border-radius: 2em;
+    background-color: darkgray;
+    padding-left: 0;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: .5em;
 }
 
 input, button, select {
-	margin: 0.1em;
-	background-color: lightgray;
-	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
-	border: 2px solid black;
+    margin: 0.1em;
+    background-color: lightgray;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+    border: 2px solid black;
 }
 
 input[type='number'], button {
-	width: 4.5em;
+    width: 4.5em;
 }
 
-input[type='date']{
-	width: 9.5em;
+input[type='date'] {
+    width: 9.5em;
 }
 
 button {
-	padding-bottom: 0.2em;
-	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
-	margin-bottom: 0.5em;
-	text-align: center;
-	transition: 1s;
+    padding-bottom: 0.2em;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 0.5em;
+    text-align: center;
+    transition: 1s;
 }
 
 button:hover {
-	color: maroon;
+    color: maroon;
 }
 
 div {
-	padding: 0.5em;
-	margin: 0.5em;
-	width: 95%;
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 95%;
 }
 
 span {
-	font-weight: bold;
-	font-size: 1.5em;
-	color: maroon;
-	border: 2px solid black;
-	background-color: lightgray;
-	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
-	padding-left: 0.3em;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: maroon;
+    border: 2px solid black;
+    background-color: lightgray;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+    padding-left: 0.3em;
 }
 
 p {
-	margin: 0;
-	color: lightgray;
-	font-weight: bold;
-	line-height: 1em;
-	padding: 0.3em;
-	text-shadow: 3px 3px 3px rgba(0,0,0,0.75);
+    margin: 0;
+    color: lightgray;
+    font-weight: bold;
+    line-height: 1em;
+    padding: 0.3em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.75);
 }
 
 @media (min-width: 992px) {
-	section {width: 42%;}
+    section {
+        width: 42%;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 992px){
-	section {width: 70%;}
+@media (min-width: 768px) and (max-width: 992px) {
+    section {
+        width: 70%;
+    }
 }
-  
- @media (max-width: 768px) {
-	section {width: 100%;}
-	h1 {padding: 0.2em; font-size: 0.8em; width: 90%;}
-	p {font-size: 0.5em;margin: 0.2em;}
-	form, div {padding: 0em; margin: 0.3em;}
-	div {font-size: 1em;}
+
+@media (max-width: 768px) {
+    section {
+        width: 100%;
+    }
+
+    h1 {
+        padding: 0.2em;
+        font-size: 0.8em;
+        width: 90%;
+    }
+
+    p {
+        font-size: 0.5em;
+        margin: 0.2em;
+    }
+
+    form, div {
+        padding: 0em;
+        margin: 0.3em;
+    }
+
+    div {
+        font-size: 1em;
+    }
 }
 
 div a {
-	text-decoration: none;
-	margin: 1em 0.25em;
+    text-decoration: none;
+    margin: 1em 0.25em;
 }
-div a span{
-	padding: 0.25em 0.4em;
+
+div a span {
+    padding: 0.25em 0.4em;
 }
-.inline{
-	display: inline;
+
+.inline {
+    display: inline;
 }
-div.buttons{
-	margin-top: .25em;
-	padding-top: 0.25em;
+
+div.buttons {
+    margin-top: .5em;
+    padding-top: 0.5em;
 }
