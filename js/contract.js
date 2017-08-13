@@ -7,6 +7,7 @@
     xhr.onload = function() {
         if (xhr.status === 200) {
             $ = JSON.parse(xhr.responseText).Cur_OfficialRate;
+            console.log($);
         }
         else {
             console.log('Request failed.  Returned status of ' + xhr.status);
