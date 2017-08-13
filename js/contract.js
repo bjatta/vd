@@ -1,6 +1,19 @@
-'use strict';
-
 ;(function () {
+    'use strict';
+
+    var $=1.9521;
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'http://www.nbrb.by/API/ExRates/Rates/145');
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            $ = JSON.parse(xhr.responseText).Cur_OfficialRate;
+        }
+        else {
+            console.log('Request failed.  Returned status of ' + xhr.status);
+        }
+    };
+    xhr.send();
+
     var __ = console.log;
     var direction = 'down';
     var d = document.querySelector('#vd-main-section');
@@ -60,6 +73,7 @@
         }
         diff = (toPay - total - fszn - fee).toFixed(2);
         d.querySelector('#total').innerHTML = '<span><strong>' + total + ' </strong></span>&nbspруб. ';
+        d.querySelector('#USDtotal').innerHTML='$'+(total/$).toFixed(2);
         d.querySelector('#honor').innerHTML = 'премия: <span>' + honor + ' </span>&nbspруб. ';
         d.querySelector('#income-fee').innerHTML = 'подоходный: ' + fee + ' &nbspруб. ';
         d.querySelector('#FSZN').innerHTML = 'ФСЗН: ' + fszn + ' &nbspруб. ';
@@ -67,6 +81,7 @@
         if (!diff) {
             d.querySelector('#error').innerHTML = '<p> разница: <span>' + diff + ' </span>&nbspруб. </p>';
         }
+        d.querySelector('#USDtoPay').innerHTML='$'+(toPay/$).toFixed(2);
     };
     document.addEventListener("DOMContentLoaded", setListeners);
 })();

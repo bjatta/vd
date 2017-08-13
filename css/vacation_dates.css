@@ -131,3 +131,13 @@ div.buttons {
     margin-top: .5em;
     padding-top: 0.5em;
 }
+
+div.USD.lower{
+    padding-top: .5em;
+}
+div.USD{
+    margin: -.5em;
+    padding: 0;
+    color: green;
+    font-weight: bold;
+}
