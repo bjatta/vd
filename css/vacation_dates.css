@@ -102,3 +102,7 @@ div a span{
 .inline{
 	display: inline;
 }
+div.buttons{
+	margin-top: .25em;
+	padding-top: 0.25em;
+}
