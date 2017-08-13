@@ -1,6 +1,5 @@
-'use strict';
-
 ;(function () {
+    'use strict';
     var __ = console.log;
 
     var today = function today() {
@@ -11,18 +10,9 @@
         var mm = today.getMonth() + 1; //January is 0!
         var yyyy = today.getFullYear();
 
-        if (dd < 10) {
-            dd = '0' + dd;
-        }
-
-        if (mm < 10) {
-            mm = '0' + mm;
-        }
-
-        if (!now) {
-            --yyyy;
-        }
-
+        (dd < 10) && (dd = '0' + dd);
+        (mm < 10) && (mm = '0' + mm);
+        !now && --yyyy;
         return yyyy + '-' + mm + '-' + dd;
     };
 
@@ -32,7 +22,12 @@
         d.querySelector('input[name="ends_at"]').value = today();
         d.querySelector('input[name="starts_at"]').value = today(false);
         calc();
-        ['input[name="ends_at"]', 'input[name="starts_at"]', 'input[name="days"]', 'input[name="contract_days"]'].forEach(function (cssSelector) {
+        [
+            'input[name="ends_at"]',
+            'input[name="starts_at"]',
+            'input[name="days"]',
+            'input[name="contract_days"]'
+        ].forEach(function (cssSelector) {
             d.querySelector(cssSelector).addEventListener('change', calc);
             d.querySelector(cssSelector).addEventListener('click', calc);
             d.querySelector(cssSelector).addEventListener('keyup', calc);
@@ -41,7 +36,7 @@
 
     var checkDate = function checkDate(htmlNodeWithDate, initialValue) {
         var date1 = void 0;
-        if (date1 = Date.parse(htmlNodeWithDate.value)) return date1;else {
+        if (date1 = Date.parse(htmlNodeWithDate.value)) return date1; else {
             htmlNodeWithDate.value = initialValue;
             return Date.parse(initialValue);
         }

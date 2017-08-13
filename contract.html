@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/vacation_dates.css">
-        <title>Расчёт договоров подряда</title>
-    </head>
-    <body id="vd-main-section">
-    <section>
-        <h1>Оплата контракта:</h1>
-        <form action="#" onsubmit="return false;">
-            <label>тарифный оклад:</label><input type="number" min="1" max="9999" name="tariff" value="750.00" title="Тарифный оклад"><br>
-            <div id="honor" class="inline">honor</div>
-            <select type="select" title="% премии" name="select-honor">
-                <option value="1">50%</option>
-                <option value="2">30%</option>
-            </select>
-            <div id="total">общая</div>
-            <div id="income-fee">подоходный налог 13%</div>
-            <div id="FSZN"> ФСЗН 1%</div>
-            <div id="totalfee"> всего удержаний </div>
-            <label>на руки:</label><input type="number" min="1" max="9999" name="toPay" value="750.00" title="Грязными"><br>
-            <div id="error"></div>
-        </form>
-        <div></div>
-    </section>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/vacation_dates.css">
+    <title>Расчёт договоров подряда</title>
+</head>
+<body id="vd-main-section">
+<section>
+    <h1>Оплата контракта:</h1>
+    <form action="#" onsubmit="return false;">
+        <label>тарифный оклад:</label><input type="number" min="1" max="9999" name="tariff" value="750.00"
+                                             title="Тарифный оклад"><br>
+        <div id="honor" class="inline">honor</div>
+        <select type="select" title="% премии" name="select-honor">
+            <option value="1">50%</option>
+            <option value="2">30%</option>
+        </select>
+        <div id="total">общая</div>
+        <div id="income-fee">подоходный налог 13%</div>
+        <div id="FSZN"> ФСЗН 1%</div>
+        <div id="totalfee"> всего удержаний</div>
+        <label>на руки:</label><input type="number" min="1" max="9999" name="toPay" value="750.00" title="Грязными"><br>
+        <div id="error"></div>
+    </form>
+    <div></div>
+</section>
+<section>
     <div><a href="index.html"><span> РО </span></a><a href="act.html"><span> ДП </span></a></div>
-    <script type="text/javascript" src="js/contract.js"></script>
-    </body>
+</section>
+<script type="text/javascript" src="js/contract.js"></script>
+</body>
 </html>

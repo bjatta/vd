@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/vacation_dates.css">
-        <title>Расчёт компенсации трудового отпуска</title>
-    </head>
-    <body>
-    <section id="vd-main-section">
-        <h1>Расчёт компенсации трудового отпуска</h1>
-        <form action="#" onsubmit="return false;">
-            <input type="date" name="starts_at" value="2015-07-02">
-            <input type="date" name="ends_at" value="2016-05-23"><br>
-            <input type="number" min="24" max="58" name="days" value="28">
-            <input type="number" min="0" max="370" name="contract_days" value="0"><br>
-            <button id="vd-calc">&nbsp;расчёт&nbsp;</button>
-        </form>
-        <div></div>
-    </section>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/vacation_dates.css">
+    <title>Расчёт компенсации трудового отпуска</title>
+</head>
+<body>
+<section id="vd-main-section">
+    <h1>Расчёт компенсации трудового отпуска</h1>
+    <form action="#" onsubmit="return false;">
+        <input type="date" name="starts_at" value="2015-07-02">
+        <input type="date" name="ends_at" value="2016-05-23"><br>
+        <input type="number" min="24" max="58" name="days" value="28">
+        <input type="number" min="0" max="370" name="contract_days" value="0"><br>
+        <button id="vd-calc">&nbsp;расчёт&nbsp;</button>
+    </form>
+    <div></div>
+</section>
+<section>
     <div><a href="act.html"><span> ДП </span></a><a href="contract.html"><span> OK </span></a></div>
-    <script type="text/javascript" src="js/vd.js"></script>
-    </body>
+</section>
+<script type="text/javascript" src="js/vd.js"></script>
+</body>
 </html>
