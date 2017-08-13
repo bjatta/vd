@@ -3,7 +3,7 @@
 
     var $=1.9521;
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://www.nbrb.by/API/ExRates/Rates/145');
+    xhr.open('GET', 'https://www.nbrb.by/API/ExRates/Rates/145');
     xhr.onload = function() {
         if (xhr.status === 200) {
             $ = JSON.parse(xhr.responseText).Cur_OfficialRate;
