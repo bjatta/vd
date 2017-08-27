@@ -101,6 +101,7 @@ p {
     }
     div#USDtoPay.USD {
         text-align: right;
+        padding-right: 3em;
     }
     div#USDtotal.USD,
     div#FSZN.USD,

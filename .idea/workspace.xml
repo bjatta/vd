@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a73f0dc-8951-454f-a844-2fd9264348d3" name="Default" comment="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed...">
+    <list default="true" id="5a73f0dc-8951-454f-a844-2fd9264348d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/vacation_dates.css" afterPath="$PROJECT_DIR$/css/vacation_dates.css" />
     </list>
@@ -16,8 +16,8 @@
       <file leaf-file-name="vacation_dates.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/vacation_dates.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="135" column="1" lean-forward="true" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
+            <state relative-caret-position="289">
+              <caret line="103" column="27" lean-forward="false" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -124,7 +124,7 @@
       <workItem from="1502651334454" duration="384000" />
       <workItem from="1503860436772" duration="371000" />
       <workItem from="1503860844949" duration="22000" />
-      <workItem from="1503861790185" duration="710000" />
+      <workItem from="1503861790185" duration="756000" />
     </task>
     <task id="LOCAL-00001" summary="Added contract calculator">
       <created>1501429901008</created>
@@ -308,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503862370329</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed...">
+      <created>1503862507718</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1503862507718</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23294000" />
+    <option name="totallyTimeSpent" value="23340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -710,8 +717,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/vacation_dates.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="135" column="1" lean-forward="true" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="103" column="27" lean-forward="false" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
           <folding />
         </state>
       </provider>
