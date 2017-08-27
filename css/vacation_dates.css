@@ -99,13 +99,14 @@ p {
     div {
         font-size: 1em;
     }
-    div#USDtoPay.USD {
+    div#USDtoPay.USD.lower {
         text-align: right;
         padding-right: 2em;
+        padding-top: 0;
     }
     div#USDtotal.USD,
     div#FSZN.USD,
-    div#USDtoPay.USDlower {
+    div#USDtoPay.USD {
         margin: 0;
         padding: 0;
     }
