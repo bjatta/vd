@@ -112,7 +112,9 @@ p {
     div {
         font-size: 1em;
     }
-    div#total div.USD{
+    div#USDtotal div.USD,
+    div#FSZN div.USD,
+    div#USDtoPay div.USD{
         margin: 0em;
     }}
 
