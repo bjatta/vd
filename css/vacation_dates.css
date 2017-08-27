@@ -112,13 +112,8 @@ p {
     div {
         font-size: 1em;
     }
-    div.USD.lower{
-        padding: 1.5em;
-    }
-    div.USD{
-        padding: 0;
-        color: green;
-        font-weight: bold;
+    div#total div.USD{
+        margin: 0em;
     }}
 
 div a {
