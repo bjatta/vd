@@ -82,11 +82,11 @@ p {
     section {
         width: 100%;
     }
-
     h1 {
         padding: 0.2em;
         font-size: 0.8em;
         width: 90%;
+        margin: 0;
     }
     p {
         font-size: 0.5em;

@@ -16,8 +16,8 @@
       <file leaf-file-name="vacation_dates.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/vacation_dates.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+            <state relative-caret-position="306">
+              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,7 +124,7 @@
       <workItem from="1502651334454" duration="384000" />
       <workItem from="1503860436772" duration="371000" />
       <workItem from="1503860844949" duration="22000" />
-      <workItem from="1503861790185" duration="913000" />
+      <workItem from="1503861790185" duration="958000" />
     </task>
     <task id="LOCAL-00001" summary="Added contract calculator">
       <created>1501429901008</created>
@@ -322,11 +322,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503862551631</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed...">
+      <created>1503862709340</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1503862709340</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23497000" />
+    <option name="totallyTimeSpent" value="23542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -724,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/vacation_dates.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+        <state relative-caret-position="306">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
         </state>
       </provider>
