@@ -94,7 +94,6 @@ p {
     }
     form, div {
         padding: 0em;
-        margin: 0.3em;
     }
     div {
         font-size: 1em;
@@ -106,7 +105,7 @@ p {
     div#USDtotal.USD,
     div#FSZN.USD,
     div#USDtoPay.USD {
-        margin: 0;
+        margin: 0.1em;
     }
     div#income-fee {
         margin: .1em;
