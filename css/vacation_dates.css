@@ -112,12 +112,17 @@ p {
     div {
         font-size: 1em;
     }
+    div#USDtoPay.USD {
+        text-align: right;
+    }
     div#USDtotal.USD,
     div#FSZN.USD,
     div#USDtoPay.USD{
         margin: 0em;
     }}
-
+    div#income-fee{
+        margin: .1em;
+    }
 div a {
     text-decoration: none;
     margin: 1em 0.25em;
