@@ -112,7 +112,14 @@ p {
     div {
         font-size: 1em;
     }
-}
+    div.USD.lower{
+        padding-top: 1em;
+    }
+    div.USD{
+        padding: 0;
+        color: green;
+        font-weight: bold;
+    }}
 
 div a {
     text-decoration: none;
