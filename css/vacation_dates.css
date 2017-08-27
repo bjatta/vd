@@ -101,12 +101,13 @@ p {
     }
     div#USDtoPay.USD {
         text-align: right;
-        padding-right: 3em;
+        padding-right: 2em;
     }
     div#USDtotal.USD,
     div#FSZN.USD,
     div#USDtoPay.USD {
-        margin: 0.1em;
+        margin: 0;
+        padding: 0;
     }
     div#income-fee {
         margin: .1em;
