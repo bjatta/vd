@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0be8259-c89f-419e-8037-25a76998e470" name="Default" comment="">
+    <list default="true" id="5a73f0dc-8951-454f-a844-2fd9264348d3" name="Default" comment="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed...">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/contract.js" afterPath="$PROJECT_DIR$/js/contract.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/vacation_dates.css" afterPath="$PROJECT_DIR$/css/vacation_dates.css" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,43 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vd.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/vd.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <marker date="1502643564434" expanded="true" signature="2119:2125" ph=" " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contract.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contract.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contract.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/contract.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vacation_dates.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vacation_dates.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/vacation_dates.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="138" column="10" lean-forward="false" selection-start-line="138" selection-start-column="10" selection-end-line="138" selection-end-column="10" />
+            <state relative-caret-position="833">
+              <caret line="135" column="1" lean-forward="true" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -67,34 +31,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/act.js" />
-        <option value="$PROJECT_DIR$/js/vd.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/act.html" />
-        <option value="$PROJECT_DIR$/contract.html" />
         <option value="$PROJECT_DIR$/css/vacation_dates.css" />
-        <option value="$PROJECT_DIR$/js/contract.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <annotation-enable>false</annotation-enable>
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="338" />
-    <option name="y" value="9" />
-    <option name="width" value="1284" />
-    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -114,6 +59,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,24 +82,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="C:/nodejs/node" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
-    <property name="JavaScriptPreferStrict" value="true" />
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\js\vd\js" />
-      <recent name="D:\js\vd" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,9 +98,6 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -194,7 +121,10 @@
       <workItem from="1502643028842" duration="538000" />
       <workItem from="1502643638263" duration="762000" />
       <workItem from="1502647587542" duration="1667000" />
-      <workItem from="1502651334454" duration="344000" />
+      <workItem from="1502651334454" duration="384000" />
+      <workItem from="1503860436772" duration="371000" />
+      <workItem from="1503860844949" duration="22000" />
+      <workItem from="1503861790185" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="Added contract calculator">
       <created>1501429901008</created>
@@ -322,11 +252,67 @@
       <option name="project" value="LOCAL" />
       <updated>1502651634629</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed...">
+      <created>1502651698257</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1502651698257</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed...">
+      <created>1503860592451</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1503860592451</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed...">
+      <created>1503860735495</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1503860735495</updated>
+    </task>
+    <task id="LOCAL-00022" summary="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed...">
+      <created>1503860782927</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1503860782927</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed...">
+      <created>1503861848156</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1503861848156</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed...">
+      <created>1503861986829</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1503861986829</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed...">
+      <created>1503862100450</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1503862100450</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed...">
+      <created>1503862370329</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1503862370329</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22151000" />
+    <option name="totallyTimeSpent" value="23294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -368,28 +354,18 @@
     <MESSAGE value="online babel for iOS on 4S compatibilities.&#10;&#10;fixed revert calculation" />
     <MESSAGE value="CSS fix bottom buttons" />
     <MESSAGE value="added USD $ course request from NBRB.BY" />
-    <option name="LAST_COMMIT_MESSAGE" value="added USD $ course request from NBRB.BY" />
+    <MESSAGE value="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed..." />
+    <option name="LAST_COMMIT_MESSAGE" value="added USD $ course request from NBRB.BY&#10;http =&gt; https changeed..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/vd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <marker date="1502643564434" expanded="true" signature="2119:2125" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contract.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -397,7 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -405,9 +380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <marker date="1502643564434" expanded="true" signature="2119:2125" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -422,7 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -445,9 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502643564434" expanded="true" signature="2119:2125" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -455,9 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502643564434" expanded="true" signature="2119:2125" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,9 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502643564434" expanded="true" signature="2119:2125" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,9 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502643564434" expanded="true" signature="2119:2125" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,9 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502643564434" expanded="true" signature="2119:2125" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -725,19 +681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/vd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="88">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <marker date="1502643564434" expanded="true" signature="2119:2125" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/vacation_dates.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="138" column="10" lean-forward="false" selection-start-line="138" selection-start-column="10" selection-end-line="138" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,14 +690,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/contract.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="340">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/vacation_dates.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="135" column="1" lean-forward="true" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
           <folding />
         </state>
       </provider>

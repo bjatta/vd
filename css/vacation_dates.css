@@ -8,13 +8,11 @@
     margin-left: auto;
     margin-right: auto;
 }
-
 body {
     padding: 0;
     margin-right: 0.4em;
     min-width: 271px;
 }
-
 section {
     border: 2px solid black;
     border-radius: 2em;
@@ -23,22 +21,18 @@ section {
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
     margin-bottom: .5em;
 }
-
 input, button, select {
     margin: 0.1em;
     background-color: lightgray;
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
     border: 2px solid black;
 }
-
 input[type='number'], button {
     width: 4.5em;
 }
-
 input[type='date'] {
     width: 9.5em;
 }
-
 button {
     padding-bottom: 0.2em;
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
@@ -46,17 +40,14 @@ button {
     text-align: center;
     transition: 1s;
 }
-
 button:hover {
     color: maroon;
 }
-
 div {
     padding: 0.5em;
     margin: 0.5em;
     width: 95%;
 }
-
 span {
     font-weight: bold;
     font-size: 1.5em;
@@ -66,7 +57,6 @@ span {
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
     padding-left: 0.3em;
 }
-
 p {
     margin: 0;
     color: lightgray;
@@ -98,17 +88,14 @@ p {
         font-size: 0.8em;
         width: 90%;
     }
-
     p {
         font-size: 0.5em;
         margin: 0.2em;
     }
-
     form, div {
         padding: 0em;
         margin: 0.3em;
     }
-
     div {
         font-size: 1em;
     }
@@ -117,34 +104,31 @@ p {
     }
     div#USDtotal.USD,
     div#FSZN.USD,
-    div#USDtoPay.USD{
-        margin: 0em;
-    }}
-    div#income-fee{
+    div#USDtoPay.USD {
+        margin: 0;
+    }
+    div#income-fee {
         margin: .1em;
     }
+}
 div a {
     text-decoration: none;
     margin: 1em 0.25em;
 }
-
 div a span {
     padding: 0.25em 0.4em;
 }
-
 .inline {
     display: inline;
 }
-
 div.buttons {
     margin-top: .5em;
     padding-top: 0.5em;
 }
-
-div.USD.lower{
+div.USD.lower {
     padding-top: .5em;
 }
-div.USD{
+div.USD {
     margin: -.5em;
     padding: 0;
     color: green;
